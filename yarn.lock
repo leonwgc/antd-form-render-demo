@@ -1688,10 +1688,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd-form-render@~1.3.2:
-  version "1.3.2"
-  resolved "https://registry.nlark.com/antd-form-render/download/antd-form-render-1.3.2.tgz#ce0c9aa08cf6a43195ec995e766a76d81a657203"
-  integrity sha1-zgyaoIz2pDGV7Jledmp22BplcgM=
+antd-form-render@~1.3.3:
+  version "1.3.3"
+  resolved "https://registry.nlark.com/antd-form-render/download/antd-form-render-1.3.3.tgz?cache=0&sync_timestamp=1625923130778&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fantd-form-render%2Fdownload%2Fantd-form-render-1.3.3.tgz#cfefddbea29faa98705d307221605d5621f0f18c"
+  integrity sha1-z+/dvqKfqphwXTByIWBdViHw8Yw=
 
 antd@^4.16.2:
   version "4.16.2"

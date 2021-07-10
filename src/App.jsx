@@ -1,8 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Tabs } from 'antd';
-import FormRender, { FormSpaceRender } from 'antd-form-render';
 import './App.less';
+import OneCol from './OneCol';
+import OneColWithDynamicControl from './OneColWithDynamicControl';
+import MultipleCols from './MultipleCols';
+import SpaceLayout from './SpaceLayout';
 
 const { TabPane } = Tabs;
 
@@ -15,12 +18,18 @@ const App = () => {
 
   return (
     <StyledContainer>
-      <Tabs defaultActiveKey="1" onChange={setKey}>
-        <TabPane tab="FormRender" key="1">
-          Content of Tab Pane 1
+      <Tabs defaultActiveKey="1" activeKey={key} onChange={setKey}>
+        <TabPane tab="一行一列" key="1">
+          <OneCol />
         </TabPane>
-        <TabPane tab="FormSpaceRender" key="2">
-          Content of Tab Pane 2
+        <TabPane tab="表单联动" key="2">
+          <OneColWithDynamicControl />
+        </TabPane>
+        <TabPane tab="一行多列" key="3">
+          <MultipleCols />
+        </TabPane>
+        <TabPane tab="等间距排列" key="4">
+          <SpaceLayout />
         </TabPane>
       </Tabs>
     </StyledContainer>
