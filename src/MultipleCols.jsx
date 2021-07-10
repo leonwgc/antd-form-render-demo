@@ -4,7 +4,7 @@ import { Input, Radio, Form } from 'antd';
 import FormRender from 'antd-form-render';
 
 const StyledOneRow = styled.div`
-  width: 1000px;
+  width: 800px;
 `;
 
 const MultipleCols = () => {
