@@ -37,7 +37,6 @@ const MultipleCols = () => {
         </div>
         <FormRender layoutData={layout} cols={cols}></FormRender>
       </Form>
-      <FormRender layoutData={layout}></FormRender>
     </StyledOneRow>
   );
 };
