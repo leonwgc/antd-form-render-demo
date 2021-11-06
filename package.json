@@ -17,7 +17,7 @@
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "start": "packx start -p 3005",
-    "build": "packx build && cp -r ./dist/ ./docs/"
+    "build": "packx build -p 'https://leonwgc.github.io/antd-form-render-demo/' && cp -r ./dist/ ./docs/"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
