@@ -5896,10 +5896,10 @@ p-try@^2.0.0:
   version "2.2.0"
   resolved "https://registry.nlark.com/p-try/download/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
 
-packx@0.5.0:
-  version "0.5.0"
-  resolved "https://registry.npmmirror.com/packx/download/packx-0.5.0.tgz#a2493ac60a7a3339cedafc6e91a0c5a9db3b5036"
-  integrity sha1-okk6xgp6MznO2vxukaDFqds7UDY=
+packx@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/packx/download/packx-1.0.0.tgz#49b2823ca8ad288202617a2b480f67878c6bc67e"
+  integrity sha1-SbKCPKitKIICYXorSA9nh4xrxn4=
   dependencies:
     "@babel/cli" "^7.14.8"
     "@babel/core" "^7.15.0"
