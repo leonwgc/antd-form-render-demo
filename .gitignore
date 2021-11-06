@@ -1,4 +1,5 @@
 
 node_modules
-*.html
+index.html
 .eslintcache
+dist
