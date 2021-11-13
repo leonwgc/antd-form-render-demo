@@ -62,6 +62,6 @@
   "dependencies": {
     "styled-components": "^5.3.0",
     "antd": "^4.16.2",
-    "antd-form-render": "1.5.1"
+    "antd-form-render": "~1.6.0"
   }
 }

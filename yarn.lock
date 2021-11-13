@@ -2576,10 +2576,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd-form-render@1.5.1:
-  version "1.5.1"
-  resolved "https://registry.npmmirror.com/antd-form-render/download/antd-form-render-1.5.1.tgz#ec1f9ed6a7c267ac414b196bbde9bff775c066db"
-  integrity sha1-7B+e1qfCZ6xBSxlrvem/93XAZts=
+antd-form-render@~1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/antd-form-render/-/antd-form-render-1.6.0.tgz#6ac395fd34d26a2445f15463ab889c78112650d2"
+  integrity sha512-3KyIfRNyqoTJYQJ9OZpbILYL9WWSnG078qDR7JcWH6ET2CsYf6pCx2banHY8qFrZJj8ry2kYbRtvJ72D+4rITQ==
 
 antd@^4.16.2:
   version "4.16.2"
